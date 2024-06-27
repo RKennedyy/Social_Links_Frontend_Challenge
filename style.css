@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    justify-content: center;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 600, 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    width: 500px;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(135, 128, 128);
+    padding: 10px;
+}
+
+button{
+    background-color: hsl(0, 0%, 20%);
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border: 0;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+img{
+    border-radius: 100px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    margin-left: 150px;
+}
+h1{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+}
+
+h2{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+@media (max-width: 375px){
+    .card{
+        width: 330px;
+    }
+
+    button{
+        width: 230px;
+    }
+}
